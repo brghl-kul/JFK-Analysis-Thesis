@@ -4,7 +4,7 @@
 1-cleaning.py
 
 High‑fidelity OCR cleaner for JFK/HSCA/CIA/FBI/NARA documents.
-
+ ------
 Goals:
   - Normalize text safely without destroying intelligence content.
   - Remove scanning noise (DocId lines, doctly banners, OCR artifacts).
