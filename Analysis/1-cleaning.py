@@ -1,18 +1,3 @@
-#!/usr/bin/env python3
-
-"""
-1-cleaning.py
-
-High‑fidelity OCR cleaner for JFK/HSCA/CIA/FBI/NARA documents.
- ------
-Goals:
-  - Normalize text safely without destroying intelligence content.
-  - Remove scanning noise (DocId lines, doctly banners, OCR artifacts).
-  - Preserve memo headers (FROM, TO, SUBJECT, MEMORANDUM FOR).
-  - Preserve CIA cryptonyms (AM/LASH, ZR/RIFLE, LI/OSWALD).
-  - Preserve 201-file numbers (e.g., 201‑289248).
-"""
-
 import os
 import re
 import unicodedata
